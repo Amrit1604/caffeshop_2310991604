@@ -94,13 +94,13 @@
 }
 
   .logo {
-  position: absolute; /* Position the logo absolutely */
-  top: 60px; /* Distance from the top */
+  position:absolute; /* Position the logo absolutely */
+  top: 55px; /* Distance from the top */
   left: 20px; /* Distance from the left */
   border-radius: 50%; /* Makes the logo circular */
   overflow: hidden; /* Ensures image fits within the circle */
-  width: 250px; /* Adjust size as needed */
-  height: 250px; /* Same as width to maintain circular shape */
+  width: 130px; /* Adjust size as needed */
+  height: 130px; /* Same as width to maintain circular shape */
   display: flex;
   justify-content: center; /* Center image horizontally */
   align-items: center; /* Center image vertically */
@@ -134,7 +134,7 @@
 .contact-form .form-control {
   margin-bottom: 15px;
 }
-/* CSS */
+
 .footer-bottom {
   background: #222;
 }
@@ -148,6 +148,37 @@
 .footer-bottom a:hover {
   text-decoration: underline;
 }
+.card-text {
+  color: #222;
+  font-size: larger;
+  font-weight: bold;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.card {
+    border: 10px solid #c0c0c0;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    margin-bottom: 20px;
+}
+.btn-primary{
+  width: 150px;
+  height: 50px;
+  border: 3px solid #315cfd;
+  border-radius: 45px;
+  transition: all 0.3s;
+  cursor: pointer;
+  background: rgb(0, 0, 0);
+  font-size: 1.2em;
+  font-weight: 550;
+  font-family: 'Montserrat', sans-serif;
+  
+}
+.btn-primary :hover {
+  background: #315cfd;
+  color: white;
+  font-size: 1.5em;
+}
+
 
 
 
@@ -204,7 +235,7 @@
           <p class="bestplat">ẄḦЁṚЁ ḞḶÄṾÖṚ ṀЁЁṪṠ ṠЁṚЁṄЇṪŸ </p>
         </div>
         <br>
-        <a href="#" class="btn btn-light btn-lg">Learn More</a>
+        <a href="#" class="btn btn-light btn-lg">Order Now</a>
       </div>
     </div>
   </header>
@@ -259,8 +290,8 @@
                     <img src="https://img.freepik.com/free-photo/view-3d-coffee-cup-with-roasted-beans_23-2151083732.jpg?ga=GA1.1.589384953.1719979643&semt=sph" class="card-img-top" alt="Feature 1">
                     <div class="card-body">
                         <h5 class="card-title">Feature 1</h5>
-                        <p class="card-text">Details about feature 1. Explain what it does and why it’s great.</p>
-                        <a href="#" class="btn btn-primary">Learn More</a>
+                        <p class="card-text"> This feature highlights the rich aroma and flavor of freshly brewed coffee, perfect for coffee enthusiasts.</p>
+                        <a href="#" class="btn btn-primary">Order Now</a>
                     </div>
                 </div>
             </div>
@@ -271,20 +302,20 @@
                     <img src="https://img.freepik.com/premium-photo/glass-cup-delicious-hot-chocolate-with-whipped-cream_157927-943.jpg?ga=GA1.1.589384953.1719979643&semt=ais_user" class="card-img-top" alt="Feature 2">
                     <div class="card-body">
                         <h5 class="card-title">Feature 2</h5>
-                        <p class="card-text">Details about feature 2. Explain what it does and why it’s great.</p>
-                        <a href="#" class="btn btn-primary">Learn More</a>
+                        <p class="card-text"> Indulge in the creamy richness of hot chocolate topped with whipped cream for a perfect treat.</p>
+                        <a href="#" class="btn btn-primary">Order Now</a>
                     </div>
                 </div>
             </div>
 
-            <!-- Image 3 (was 7th) -->
+            <!-- Image 3 -->
             <div class="col-md-4">
                 <div class="card">
                     <img src="https://img.freepik.com/premium-photo/chocolate-smoothie-with-jar-cafe_136375-868.jpg?ga=GA1.1.589384953.1719979643&semt=sph" class="card-img-top" alt="Feature 3">
                     <div class="card-body">
                         <h5 class="card-title">Feature 3</h5>
-                        <p class="card-text">Details about feature 3. Explain what it does and why it’s great.</p>
-                        <a href="#" class="btn btn-primary">Learn More</a>
+                        <p class="card-text"> Enjoy a refreshing chocolate smoothie, a perfect blend of taste and nutrition for a quick energy boost.</p>
+                        <a href="#" class="btn btn-primary">Order Now</a>
                     </div>
                 </div>
             </div>
@@ -292,11 +323,11 @@
             <!-- Image 4 -->
             <div class="col-md-4">
                 <div class="card">
-                    <img src="https://img.freepik.com/free-photo/top-view-salad-with-feta-cheese-cutting-board_23-2148700461.jpg?ga=GA1.1.589384953.1719979643&semt=sph" class="card-img-top" alt="Feature 4">
+                    <img src="https://img.freepik.com/premium-photo/irish-coffee-with-cinnamon-wooden-surface_159137-3358.jpg?uid=R155330199&ga=GA1.1.589384953.1719979643&semt=ais_user" class="card-img-top" alt="Feature 4">
                     <div class="card-body">
                         <h5 class="card-title">Feature 4</h5>
-                        <p class="card-text">Details about feature 4. Explain what it does and why it’s great.</p>
-                        <a href="#" class="btn btn-primary">Learn More</a>
+                        <p class="card-text">Savor the delightful combination of coffee and cinnamon in our special Irish coffee.</p>
+                        <a href="#" class="btn btn-primary">Order Now</a>
                     </div>
                 </div>
             </div>
@@ -304,47 +335,47 @@
             <!-- Image 5 -->
             <div class="col-md-4">
                 <div class="card">
-                    <img src="https://img.freepik.com/premium-photo/pasta-arrabbiata-with-tomato-sauce-plate-italian-food_128711-10348.jpg?ga=GA1.1.589384953.1719979643&semt=sph" class="card-img-top" alt="Feature 5">
+                    <img src="https://img.freepik.com/free-photo/iced-coffee-tall-glass-with-cream-topped-with-iced-coffee-decorated-with-coffee-beans_1150-22916.jpg?uid=R155330199&ga=GA1.1.589384953.1719979643&semt=ais_user" class="card-img-top" alt="Feature 5">
                     <div class="card-body">
                         <h5 class="card-title">Feature 5</h5>
-                        <p class="card-text">Details about feature 5. Explain what it does and why it’s great.</p>
-                        <a href="#" class="btn btn-primary">Learn More</a>
+                        <p class="card-text"> Cool down with our iced coffee, a perfect blend of coffee and cream served cold.</p>
+                        <a href="#" class="btn btn-primary">Order Now</a>
                     </div>
                 </div>
             </div>
 
-            <!-- Image 6 (was 8th) -->
+            <!-- Image 6 -->
             <div class="col-md-4">
                 <div class="card">
-                    <img src="https://img.freepik.com/free-photo/club-sandwich-served-with-french-fries_141793-574.jpg?size=626&ext=jpg&ga=GA1.1.589384953.1719979643&semt=sph" class="card-img-top" alt="Feature 6">
+                    <img src="https://img.freepik.com/free-photo/close-up-vintage-coffee-maker-set_23-2148337131.jpg?uid=R155330199&ga=GA1.1.589384953.1719979643&semt=ais_user" class="card-img-top" alt="Feature 6">
                     <div class="card-body">
                         <h5 class="card-title">Feature 6</h5>
-                        <p class="card-text">Details about feature 6. Explain what it does and why it’s great.</p>
-                        <a href="#" class="btn btn-primary">Learn More</a>
+                        <p class="card-text"> Experience the nostalgia with our vintage coffee maker set, ideal for a classic coffee brewing experience.</p>
+                        <a href="#" class="btn btn-primary">Order Now</a>
                     </div>
                 </div>
             </div>
 
-            <!-- Image 7 (was 3rd) -->
+            <!-- Image 7 -->
             <div class="col-md-4">
                 <div class="card">
-                    <img src="https://img.freepik.com/premium-photo/delicious-fresh-croissants-street-cafe_153977-1699.jpg?ga=GA1.1.589384953.1719979643&semt=ais_user" class="card-img-top" alt="Feature 7">
+                    <img src="https://img.freepik.com/free-photo/top-view-salad-with-feta-cheese-cutting-board_23-2148700461.jpg?ga=GA1.1.589384953.1719979643&semt=sph" class="card-img-top" alt="Feature 7">
                     <div class="card-body">
                         <h5 class="card-title">Feature 7</h5>
-                        <p class="card-text">Details about feature 7. Explain what it does and why it’s great.</p>
-                        <a href="#" class="btn btn-primary">Learn More</a>
+                        <p class="card-text"> Relish our fresh and healthy salad with feta cheese, a perfect blend of flavors and nutrition.</p>
+                        <a href="#" class="btn btn-primary">Order Now</a>
                     </div>
                 </div>
             </div>
 
-            <!-- Image 8 (was 6th) -->
+            <!-- Image 8 -->
             <div class="col-md-4">
                 <div class="card">
-                    <img src="https://plus.unsplash.com/premium_photo-1663840277963-17291c6a0086?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8Y2FmZSUyMGZvb2R8ZW58MHx8MHx8fDA%3D" class="card-img-top" alt="Feature 8">
+                    <img src="https://img.freepik.com/premium-photo/pasta-arrabbiata-with-tomato-sauce-plate-italian-food_128711-10348.jpg?ga=GA1.1.589384953.1719979643&semt=sph" class="card-img-top" alt="Feature 8">
                     <div class="card-body">
                         <h5 class="card-title">Feature 8</h5>
-                        <p class="card-text">Details about feature 8. Explain what it does and why it’s great.</p>
-                        <a href="#" class="btn btn-primary">Learn More</a>
+                        <p class="card-text"> Delight in our Pasta Arrabbiata, a classic Italian dish with a spicy tomato sauce.</p>
+                        <a href="#" class="btn btn-primary">Order Now</a>
                     </div>
                 </div>
             </div>
@@ -352,11 +383,47 @@
             <!-- Image 9 -->
             <div class="col-md-4">
                 <div class="card">
-                    <img src="https://i.pinimg.com/736x/7e/13/8b/7e138b10f837516988bd1ab17f2de676.jpg" class="card-img-top" alt="Feature 9">
+                    <img src="https://img.freepik.com/free-photo/club-sandwich-served-with-french-fries_141793-574.jpg?size=626&ext=jpg&ga=GA1.1.589384953.1719979643&semt=sph" class="card-img-top" alt="Feature 9">
                     <div class="card-body">
                         <h5 class="card-title">Feature 9</h5>
-                        <p class="card-text">Details about feature 9. Explain what it does and why it’s great.</p>
-                        <a href="#" class="btn btn-primary">Learn More</a>
+                        <p class="card-text"> Enjoy our classic club sandwich served with crispy French fries, perfect for a quick and satisfying meal.</p>
+                        <a href="#" class="btn btn-primary">Order Now</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Image 10 -->
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="https://img.freepik.com/premium-photo/delicious-fresh-croissants-street-cafe_153977-1699.jpg?ga=GA1.1.589384953.1719979643&semt=ais_user" class="card-img-top" alt="Feature 10">
+                    <div class="card-body">
+                        <h5 class="card-title">Feature 10</h5>
+                        <p class="card-text"> Treat yourself to our freshly baked croissants, a perfect addition to your morning coffee.</p>
+                        <a href="#" class="btn btn-primary">Order Now</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Image 11 -->
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="https://plus.unsplash.com/premium_photo-1663840277963-17291c6a0086?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8Y2FmZSUyMGZvb2R8ZW58MHx8MHx8fDA%3D" class="card-img-top" alt="Feature 11">
+                    <div class="card-body">
+                        <h5 class="card-title">Feature 11</h5>
+                        <p class="card-text"> Discover our gourmet food selection, featuring delicacies from around the world.</p>
+                        <a href="#" class="btn btn-primary">Order Now</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Image 12 -->
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="https://i.pinimg.com/736x/7e/13/8b/7e138b10f837516988bd1ab17f2de676.jpg" class="card-img-top" alt="Feature 12">
+                    <div class="card-body">
+                        <h5 class="card-title">Feature 12</h5>
+                        <p class="card-text"> Enjoy the perfect balance of flavors with our carefully crafted dishes, made from the finest ingredients.</p>
+                        <a href="#" class="btn btn-primary">Order Now</a>
                     </div>
                 </div>
             </div>
@@ -403,7 +470,7 @@
             <div style="position: relative; width: 100%; height: 0; padding-top: 141.4286%;
  padding-bottom: 0; box-shadow: 0 2px 8px 0 rgba(63,69,81,0.16); margin-top: 1.6em; margin-bottom: 0.9em; overflow: hidden;
  border-radius: 8px; will-change: transform;">
-  <iframe loading="lazy" style="position: absolute; width: 100%; height: 100%; top: 0; left: 0; border: none; padding: 0;margin: 0;"
+  <iframe loading="" style="position: absolute; width: 100%; height: 100%; top: 0; left: 0; border: none; padding: 0;margin: 0;"
     src="https:&#x2F;&#x2F;www.canva.com&#x2F;design&#x2F;DAGLhIsvSjc&#x2F;YjDQZ5WpFh-jjrbyr-bLDQ&#x2F;view?embed" allowfullscreen="allowfullscreen" allow="fullscreen">
   </iframe>
 </div>
